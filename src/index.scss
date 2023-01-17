@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,h7{
+  font-weight: bold;
+  font-family: 'Frutiger Bold';
+  letter-spacing: 0.5px;
+}
+
+a,button, span{
+  font-family: 'Frutiger';
+}
+
+@font-face {
+  font-family: "Frutiger";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Frutiger"), url("./Fonts/Frutiger.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Frutiger Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Frutiger Bold"), url("./Fonts/Frutiger_bold.woff") format("woff");
+}
+
+.page-width {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+button {
+  background: #0f7e3e;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  border: 0;
+  font-size: 18px;
+}

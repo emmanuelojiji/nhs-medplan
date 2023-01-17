@@ -1,0 +1,37 @@
+header {
+  height: 90px;
+  width: 100%;
+  background: #005eb8;
+  display: flex;
+  align-items: center;
+  
+  .header-wrap{
+    display: flex;
+    align-items: center;
+  }
+
+  .med-plan{
+    color: white;
+    font-size: 24px;
+    margin-left: 15px;
+  }
+}
+
+.banner {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #ffeb3b;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+
+  h2{
+    margin-bottom: 10px;
+  }
+
+}
+
+.logo{
+    width: 100px;
+}
